@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
  
 
 //import components
-import Sidebar from "../components/sidebar";
+import SidebarPowerplant from './sidebar';
 
 export default function RootLayout({
   children,
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <>
-        <Sidebar/>
+        <SidebarPowerplant/>
         {children}
     </>
   );
