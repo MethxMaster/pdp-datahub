@@ -1,0 +1,29 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root{
+    /* global */
+    --draft: 1px solid black;
+
+    /* navbar */
+    --nav-height: 72px;
+    --nav-pd-item-y: 24px;
+}
+
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
