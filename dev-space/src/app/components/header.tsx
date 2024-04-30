@@ -3,6 +3,7 @@ import navbarStyles from '@/app/styles/NavbarStyle.module.css'
 
 //import library jsx
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar(){
     return (
@@ -14,7 +15,10 @@ export default function Navbar(){
                         MENU ICON
                     </div>
                     <div className={navbarStyles['nav-logo']}>
-                        <Link href='/'><div className={navbarStyles['nav-menu-item']}>LOGO</div></Link>
+                        <Link href='/'>
+                            {/* <div className={navbarStyles['nav-menu-item']}>LOGO</div> */}
+                            <Image src='/egat-logo.png' alt='egat logo' width={100} height={23}/>
+                        </Link>
                     </div>
                     <div className={navbarStyles['nav-menu']}>
                         <Link href='/pdp/'><div className={navbarStyles['nav-menu-item']}>PDP</div></Link>

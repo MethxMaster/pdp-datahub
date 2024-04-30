@@ -34,27 +34,29 @@ export default function Footer(){
 
                 <div className='py-2'>
                     Copyright &copy;2024 SPD EGAT
+                    <hr/>
                 </div>
             </div>
 
             <div className={footerStyles['footer-list-container']}>
                 <div className={footerStyles['footer-menu']}>
                     <div className={footerStyles['footer-menu-title']}>PDP</div>
-                    <Link href='/'><div className={footerStyles['footer-menu-item']}>Data</div></Link>
-                    <Link href='/'><div className={footerStyles['footer-menu-item']}>Library</div></Link>
-                    <Link href='/'><div className={footerStyles['footer-menu-item']}>Calculator</div></Link>
+                    <hr/>
+                    <Link href='/pdp/'><div className={footerStyles['footer-menu-item']}>Developing...</div></Link>
                 </div>
                 <div className={footerStyles['footer-menu']}>
                     <div className={footerStyles['footer-menu-title']}>Power plant</div>
-                    <Link href='/'><div className={footerStyles['footer-menu-item']}>Data</div></Link>
-                    <Link href='/'><div className={footerStyles['footer-menu-item']}>Library</div></Link>
-                    <Link href='/'><div className={footerStyles['footer-menu-item']}>Calculator</div></Link>
+                    <hr/>
+                    <Link href='/powerplant/data/'><div className={footerStyles['footer-menu-item']}>Data</div></Link>
+                    <Link href='/powerplant/knowledge/'><div className={footerStyles['footer-menu-item']}>Knowledge</div></Link>
+                    <Link href='/powerplant/calculator/'><div className={footerStyles['footer-menu-item']}>Calculator</div></Link>
+
                 </div>
                 <div className={footerStyles['footer-menu']}>
                     <div className={footerStyles['footer-menu-title']}>Load forecast</div>
-                    <Link href='/'><div className={footerStyles['footer-menu-item']}>Data</div></Link>
-                    <Link href='/'><div className={footerStyles['footer-menu-item']}>Library</div></Link>
-                    <Link href='/'><div className={footerStyles['footer-menu-item']}>Calculator</div></Link>
+                    <hr/>
+                    <Link href='https://pchunark.github.io/load_forecast_EGAT_strategies/' target='_blank'><div className={footerStyles['footer-menu-item']}>Overview (Github)</div></Link>
+
                 </div>
             </div>
 

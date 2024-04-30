@@ -3,8 +3,9 @@
     border: var(--nav-height);
 }
 .nav-container{
-    border: 1px solid red;
-    /* background: linear-gradient(to top, rgb(255, 255, 255), rgb(245, 245, 245)); */
+    /* border: 1px solid red; */
+    background: linear-gradient(to top, rgb(255, 255, 255), rgb(245, 245, 245));
+    /* background: linear-gradient(45deg, #A1FFCE, #FAFFD1); */
     background-color: gray;
     width: 100%;
     height: var(--nav-height);
@@ -12,29 +13,30 @@
     justify-content: space-between;
     color:black;
     position: fixed;
-    /* box-shadow: 0px 0px 30px 30px rgb(235,235,235); */
+    box-shadow: 0px 0px 30px 30px rgb(235,235,235);
 }
 .nav-empty{
     height: var(--nav-height);
+    /* box-shadow: 0px 0px 30px 30px rgb(235,235,235); */
 }
 .nav-left-part{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 .nav-right-part{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 .nav-icon{
-    border: 1px solid green;
-    display: flex;
+    /* border: 1px solid green; */
+    display: none;
     justify-content: center;
     align-items: center;
     padding-left: var(--nav-pd-item-y);
     padding-right: var(--nav-pd-item-y);
 }
 .nav-logo{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +44,7 @@
     padding-right: var(--nav-pd-item-y);
 }
 .nav-menu{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     padding-left: var(--nav-pd-item-y);
     padding-right: var(--nav-pd-item-y);
@@ -52,19 +54,25 @@
     color: black;
 }
 .nav-menu-item{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     padding-left: var(--nav-pd-item-y);
     padding-right: var(--nav-pd-item-y);
+
+    transition-property: background-color,color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
 }
 .nav-menu-item:hover{
     background-color: aquamarine;
+    color:black;
 }
 .nav-search{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
     justify-content: center;
     align-items: center;

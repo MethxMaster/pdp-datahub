@@ -2,11 +2,18 @@
 import contentStyles from '@/app/styles/ContentStyle.module.css'
 
 
-export default function PagePowerplantCalculateCo2(){
+export default function PagePowerplant(){
     return (
         <div className={contentStyles['content-frame']}>
             <main className={contentStyles['content-container']}>
-                <h1>Candidate Calculate home page</h1>
+                <div>
+                    <h1>Candidate Calculator</h1>
+                    <ul>
+                        <li>CO2 Emission</li>
+                        <li>Blending H2</li>
+                        <li>LCOE</li>
+                    </ul>
+                </div>
             </main>
         </div>
     );

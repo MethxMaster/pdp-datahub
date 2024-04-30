@@ -2,11 +2,19 @@
 import contentStyles from '@/app/styles/ContentStyle.module.css'
 
 
-export default function PageLoad (){
+export default function PagePowerplant(){
     return (
         <div className={contentStyles['content-frame']}>
             <main className={contentStyles['content-container']}>
-                <h1>Load forecast</h1>
+                <div>
+                    <h1>Candidate knowledge</h1>
+                    <ul>
+                        <li>Overview</li>
+                        <li>Production cost</li>
+                        <li>Gas</li>
+                        <li>CO2</li>
+                    </ul>
+                </div>
             </main>
         </div>
     );
