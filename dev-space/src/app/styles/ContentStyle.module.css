@@ -1,0 +1,20 @@
+
+
+.body-container{
+    border: 3px solid red;
+    /* background-color: aqua; */
+    display: flex;
+}
+.content-frame{
+    border: 1px solid purple;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.content-container{
+    border: 5px solid orange;
+    background-color: aquamarine;
+    width: 1296px;
+    margin-top: 24px;
+}

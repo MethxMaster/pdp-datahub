@@ -4,6 +4,7 @@ import footerStyles from '@/app/styles/FooterStyle.module.css'
 
 //import library
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 export default function Footer(){
@@ -30,10 +31,8 @@ export default function Footer(){
 
 
             <div className={footerStyles['footer-logo']}>
-                <div className=''>
-                    LOGO
-                </div>
-                <div className=''>
+
+                <div className='py-2'>
                     Copyright &copy;2024 SPD EGAT
                 </div>
             </div>
@@ -52,7 +51,7 @@ export default function Footer(){
                     <Link href='/'><div className={footerStyles['footer-menu-item']}>Calculator</div></Link>
                 </div>
                 <div className={footerStyles['footer-menu']}>
-                    <div className={footerStyles['footer-menu-title']}>Load</div>
+                    <div className={footerStyles['footer-menu-title']}>Load forecast</div>
                     <Link href='/'><div className={footerStyles['footer-menu-item']}>Data</div></Link>
                     <Link href='/'><div className={footerStyles['footer-menu-item']}>Library</div></Link>
                     <Link href='/'><div className={footerStyles['footer-menu-item']}>Calculator</div></Link>

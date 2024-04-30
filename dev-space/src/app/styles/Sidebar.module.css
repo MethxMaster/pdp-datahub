@@ -1,0 +1,24 @@
+
+.sidebar-container{
+    border: 1px solid blue;
+    width: 300px;
+    height: 93vh;
+    overflow: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.sidebar-category{
+    border: 1px solid red;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.sidebar-title{
+    border: 1px solid blue;
+    padding: 12px;
+}
+.sidebar-section{
+    border: 1px solid green;
+    padding: 12px;
+}
