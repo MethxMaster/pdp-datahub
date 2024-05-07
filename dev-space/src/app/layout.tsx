@@ -4,6 +4,9 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// //import script
+// import './../../node_modules/chart.js/dist/chart.umd'
+
 //import CSS file
 import "./globals.css";
 import contentStyles from '@/app/styles/ContentStyle.module.css'

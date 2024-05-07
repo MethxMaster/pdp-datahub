@@ -30,6 +30,7 @@
 
 .sidebar-title{
     /* border: 1px solid blue; */
+    border-bottom: 2px solid rgb(235,235,235);
     padding: 12px;
 }
 .sidebar-section{

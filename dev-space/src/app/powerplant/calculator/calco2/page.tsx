@@ -62,7 +62,7 @@ export default function PagePowerplant(): JSX.Element {
                                     return <option key={index} value={item}>{item}</option>
                                 })}
                             </select>
-                            <label> - selected : {fuelSelected}</label>
+                            <label> - select : {fuelSelected}</label>
                         </div>
 
                         {/* Heat sector */}
